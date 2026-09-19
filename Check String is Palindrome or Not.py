@@ -4,13 +4,18 @@ def reverse_string_loop(s):
     for char in s:
         reversed_str = char + reversed_str
     return reversed_str
+
+
 user_input = input("Enter a string to reverse: ")
+
 reversed_string = reverse_string_loop(user_input)
+
 print("Reversed string:", reversed_string)
-if reversed_str==s
-   print("given string is palendrome")
-else
-   print("given string is not palendrome")
+
+if reversed_string == user_input:
+    print("Given string is a palindrome")
+else:
+    print("Given string is not a palindrome")
 
 2. using slicing method
 s=input("Enter a String  ")
